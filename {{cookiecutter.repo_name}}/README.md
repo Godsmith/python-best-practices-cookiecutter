@@ -3,6 +3,8 @@
 **Table of Contents**
 
 - [Installation](#installation)
+- [Development](#development)
+- [Testing](#testing)
 
 ## Installation
 
@@ -16,4 +18,10 @@ pip install {{cookiecutter.repo_name}}
 # Setup pre-commit and pre-push hooks
 hatch run pre-commit install -t pre-commit
 hatch run pre-commit install -t pre-push
+```
+
+### Testing
+
+```sh
+hatch run cov
 ```
