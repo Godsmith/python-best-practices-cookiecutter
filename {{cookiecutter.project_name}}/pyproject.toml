@@ -32,6 +32,7 @@ dynamic = ["version"]
 path = "{{cookiecutter.repo_name}}/__about__.py"
 
 [tool.hatch.envs.default]
+python = "python3"
 dependencies = [
   "pytest",
   "pytest-cov",
